@@ -2,6 +2,8 @@
 	<head>
 
 		<link href="estiloak.css" rel="stylesheet">
+		<script src="json.js" type="text/javascript"></script>
+
 	</head>
 	<body>
 
@@ -9,19 +11,33 @@
 
 	  <div class="flex left">
 
-	    <img src="" id="imagen">
+	    <img src="8508261-M.jpg" id="imagen">
 		
 	  </div>
 
 	  <div class="flex right">
-
-	    <input type="text" value="Título" id="titulo">
-		<input type="text" value="Autor" id="autor">
-		<input type="number" value="ISBN" id="ISBN">
-		<input type="date" value="Fecha" id="fecha">
-
-		<input type="button" value="<<" id="botonAtras"> 
+		<br>
+		<br>
+		<label >Título:</label>
+	    <input type="text" id="titulo" value="Modern Java in Action: Lambdas, streams, functional and reactive programming" readonly="true" >
+		<br>
+		<br>
+		<label>Autor:</label>
+		<input type="text" id="autor" value="Raoul-Gabriel Urma" readonly="true">
+		<br>
+		<br>
+		<label>ISBN:</label>
+		<input type="text" id="ISBN" value="1617293563" readonly="true">
+		<br>
+		<br>
+		<label>Fecha:</label>
+		<input type="text" id="fecha" value="Nov 15, 2018" readonly="true">
+		<br>
+		<br>
+		<input type="button" value="<<" id="botonAtras">
 		<input type="button" value=">>" id="botonAlante">
+		<br>
+
 
 	  </div>
 
